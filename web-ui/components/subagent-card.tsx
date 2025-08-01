@@ -71,13 +71,16 @@ export function SubagentCard({ subagent }: SubagentCardProps) {
         <Link href={`/subagent/${subagent.slug}`}>
           <Card className="h-full card-hover border-border/50 hover:border-primary/20 transition-all duration-300 cursor-pointer overflow-hidden">
             <CardHeader>
-              <div className="flex items-start justify-between mb-2">
-                <CardTitle className="text-xl font-semibold">{subagent.name}</CardTitle>
+              <div className="space-y-2">
+                <div className="flex items-start justify-between gap-2">
+                  <CardTitle className="text-xl font-semibold">{subagent.name}</CardTitle>
+                </div>
                 <Badge 
-                  className={`${colorClass} bg-transparent border font-medium`} 
+                  className={`${colorClass} bg-transparent border font-medium inline-flex items-center gap-1 whitespace-nowrap text-xs`} 
                   variant="outline"
                 >
-                  {categoryIcon} {categoryName}
+                  <span className="flex-shrink-0">{categoryIcon}</span>
+                  <span>{categoryName}</span>
                 </Badge>
               </div>
               <CardDescription className="line-clamp-3 text-muted-foreground/80">

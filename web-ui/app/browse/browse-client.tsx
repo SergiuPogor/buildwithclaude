@@ -69,7 +69,7 @@ export default function BrowsePageClient({ allSubagents, categories }: BrowsePag
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-4">Browse Subagents</h1>
+          <h1 className="text-3xl font-bold mb-4">Browse AI Subagents</h1>
           <p className="text-muted-foreground">
             Explore our collection of {allSubagents.length} specialized AI subagents. 
             Hover over any card to instantly copy or download!
