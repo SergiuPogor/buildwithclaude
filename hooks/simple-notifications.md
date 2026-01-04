@@ -3,7 +3,7 @@ name: simple-notifications
 description: Send simple desktop notifications when Claude Code operations complete
 category: notifications
 event: PostToolUse
-matcher: *
+matcher: "*"
 language: bash
 version: 1.0.0
 ---

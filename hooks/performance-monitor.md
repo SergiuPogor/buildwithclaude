@@ -3,7 +3,7 @@ name: performance-monitor
 description: Monitor system performance during Claude Code operations
 category: performance
 event: PostToolUse
-matcher: *
+matcher: "*"
 language: bash
 version: 1.0.0
 ---

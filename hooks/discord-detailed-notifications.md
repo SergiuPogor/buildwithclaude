@@ -3,7 +3,7 @@ name: discord-detailed-notifications
 description: Send detailed Discord notifications with session information and rich embeds
 category: notifications
 event: Stop
-matcher: *
+matcher: "*"
 language: bash
 version: 1.0.0
 ---

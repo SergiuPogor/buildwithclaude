@@ -3,7 +3,7 @@ name: slack-notifications
 description: Send Slack notifications when Claude Code finishes working
 category: automation
 event: Stop
-matcher: *
+matcher: "*"
 language: bash
 version: 1.0.0
 ---

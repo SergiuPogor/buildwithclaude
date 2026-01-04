@@ -3,7 +3,7 @@ name: telegram-detailed-notifications
 description: Send detailed Telegram notifications with session information and metrics
 category: notifications
 event: Stop
-matcher: *
+matcher: "*"
 language: bash
 version: 1.0.0
 ---

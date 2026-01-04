@@ -3,7 +3,7 @@ name: slack-error-notifications
 description: Send Slack notifications when Claude Code encounters long-running operations or when tools take significant time
 category: notifications
 event: Notification
-matcher: *
+matcher: "*"
 language: bash
 version: 1.0.0
 ---
