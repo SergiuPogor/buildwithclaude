@@ -3518,6 +3518,33 @@
       "ref": "v0.4.3",
       "sha": "62eedd7b6ea6acc862d66a7afc08c253a4a5da1c"
     }
+  },
+  {
+    "name": "looot",
+    "description": "Search, price and run 2,500+ data API endpoints (work emails, company and people search, Google results, web pages) with one prepaid balance. The agent sees the price before a call runs, and a failed call costs nothing. Remote MCP server with browser sign-in plus one skill.",
+    "version": "0.2.1",
+    "author": {
+      "name": "looot",
+      "url": "https://looot.ai"
+    },
+    "homepage": "https://looot.ai",
+    "repository": "https://github.com/loootai/looot-plugin",
+    "license": "MIT",
+    "keywords": [
+      "mcp",
+      "data-apis",
+      "enrichment",
+      "email-finder",
+      "serp",
+      "pay-per-call"
+    ],
+    "category": "sales-marketing",
+    "source": {
+      "source": "git-subdir",
+      "url": "https://github.com/loootai/looot-plugin.git",
+      "path": "plugins/claude-code/looot",
+      "sha": "12408693408ad97d0f417e8a4d3aa413598bd376"
+    }
   }
   ]
 }
