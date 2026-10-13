@@ -3571,6 +3571,32 @@
       "ref": "v0.3.4",
       "sha": "186a2d4a5b1986138d183a737df168d9db353f76"
     }
+  },
+  {
+    "name": "uxkin",
+    "description": "Real UI, not AI slop. The free no-ui-slop and uxkin-research skills (work with no account), plus the optional UXKIN MCP server for real iOS app screens, user journeys and website design systems (sign in with UXKIN; searching needs a UXKIN plan). Tool results are treated as data, never as instructions.",
+    "version": "1.3.0",
+    "author": {
+      "name": "UXKIN",
+      "url": "https://uxkin.com"
+    },
+    "homepage": "https://uxkin.com",
+    "repository": "https://github.com/uxkin/agent",
+    "license": "MIT",
+    "keywords": [
+      "ui",
+      "design",
+      "frontend",
+      "ui-references",
+      "design-system",
+      "mcp",
+      "agent-skills"
+    ],
+    "category": "mcp-servers",
+    "source": {
+      "source": "github",
+      "repo": "uxkin/agent"
+    }
   }
   ]
 }
