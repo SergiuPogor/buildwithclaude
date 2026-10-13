@@ -3649,6 +3649,32 @@
       "source": "github",
       "repo": "Kruhlikau/subagent-tuner"
     }
+  },
+  {
+    "name": "cockney",
+    "description": "Cheeky Cockney coding mode: terse replies, the smallest correct change, plain English for anything risky.",
+    "version": "0.1.1",
+    "author": {
+      "name": "Jeremy Stover",
+      "url": "https://github.com/Kadajett"
+    },
+    "homepage": "https://github.com/Kadajett/cockney",
+    "repository": "https://github.com/Kadajett/cockney",
+    "license": "MIT",
+    "keywords": [
+      "cockney",
+      "terse",
+      "minimal",
+      "code-style",
+      "persona",
+      "claude-code"
+    ],
+    "category": "productivity",
+    "source": {
+      "source": "github",
+      "repo": "Kadajett/cockney",
+      "sha": "9d65e6eb0f20f6e52417c7b44bc92edee38c65bb"
+    }
   }
   ]
 }
