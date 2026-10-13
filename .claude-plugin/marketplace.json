@@ -3597,6 +3597,34 @@
       "source": "github",
       "repo": "uxkin/agent"
     }
+  },
+  {
+    "name": "sectionsight",
+    "description": "Sets up cookieless, privacy-first website analytics in your own site: time per page section, scroll, goals and 404s from a small tracker and a same-origin collector, an optional consent banner, PostHog session replay only after consent, one Slack or e-mail line per notable visit, a weekly digest, and health alerts. A Playwright check then proves the privacy claims: nothing stored before consent, no e-mail or token from the URL in any report, private pages silent.",
+    "version": "0.4.0",
+    "author": {
+      "name": "Jakub Dvo\u0159\u00e1k",
+      "url": "https://kubadvorak.com"
+    },
+    "homepage": "https://github.com/Majny/sectionsight",
+    "repository": "https://github.com/Majny/sectionsight",
+    "license": "MIT",
+    "keywords": [
+      "analytics",
+      "web-analytics",
+      "privacy",
+      "cookieless",
+      "consent",
+      "posthog",
+      "slack",
+      "playwright"
+    ],
+    "category": "monitoring",
+    "source": {
+      "source": "github",
+      "repo": "Majny/sectionsight",
+      "sha": "815e5e91aa3c8a198854853fe694355d25535125"
+    }
   }
   ]
 }
