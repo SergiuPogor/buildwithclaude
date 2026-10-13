@@ -3625,6 +3625,30 @@
       "repo": "Majny/sectionsight",
       "sha": "815e5e91aa3c8a198854853fe694355d25535125"
     }
+  },
+  {
+    "name": "subagent-tuner",
+    "description": "Claude Code mod that lets you choose the model and reasoning effort of every subagent: ask before it starts, take a recommendation by task kind, or let a saved default replace what the agent requested.",
+    "version": "0.1.3",
+    "author": {
+      "name": "Aleh Kruhlikau",
+      "url": "https://github.com/Kruhlikau"
+    },
+    "homepage": "https://github.com/Kruhlikau/subagent-tuner",
+    "repository": "https://github.com/Kruhlikau/subagent-tuner",
+    "license": "MIT",
+    "keywords": [
+      "subagents",
+      "model-selection",
+      "reasoning-effort",
+      "cost-control",
+      "mod"
+    ],
+    "category": "orchestration",
+    "source": {
+      "source": "github",
+      "repo": "Kruhlikau/subagent-tuner"
+    }
   }
   ]
 }
